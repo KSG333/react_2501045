@@ -27,3 +27,7 @@
 - login_page.dart: 앱의 인증 인터페이스를 담당
   - 세션 관리: 사용자가 입력한 이메일 정보를 SharedPreferences에 영구 저장하여, 앱 재실행 시 로그인 상태를 유지하는 데이터 지속성(Persistence)을 구현함
   - UX 인터랙션: TextEditingController와 obscureText 상태 관리를 통해 비밀번호 표시/숨김 기능을 구현하였으며, SingleChildScrollView를 사용하여 다양한 화면 크기에서도 입력 폼이 가려지지 않는 반응형 UI를 설계함
+
+- review_page.dart: 상세 리뷰 정보 확인 및 사용자 리뷰 작성을 담당
+  - 동적 데이터 로딩: initState에서 shuffle()과 take() 메서드를 활용하여, 사용자가 접속할 때마다 카테고리별 리뷰가 새롭게 큐레이션 되도록 구현하여 사용자 경험을 향상함
+  - 세밀한 평점 시스템: GestureDetector와 onTapDown을 활용한 0.5점 단위의 별점 로직을 자체 구현하여, 단순한 클릭 이상의 정밀한 사용자 평가 데이터를 수집할 수 있도록 설계함
