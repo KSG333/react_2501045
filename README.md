@@ -14,9 +14,5 @@
 - **카테고리 필터링**: 카테고리별 데이터 필터링 기능을 통해 사용자 맞춤형 정보 탐색 지원
 - **데이터 구조화**: 모델 클래스를 활용한 체계적인 정보 관리
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# react_2501045
->>>>>>> 25f687b13ade71161783230160caed580c6a3640
+## AI 대화 기록
+- https://gemini.google.com/share/96e109941f17
