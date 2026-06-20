@@ -20,4 +20,4 @@
 
 ## 핵심 파일 역할
 - main.dart: 앱의 최상위 진입점입니다.
-* 로그인 상태 관리(FutureBuilder와 SharedPreferences)를 활용하여 앱 실행 시 사용자 로그인 여부를 판단
+  - 로그인 상태 관리(FutureBuilder와 SharedPreferences)를 활용하여 앱 실행 시 사용자 로그인 여부를 판단
