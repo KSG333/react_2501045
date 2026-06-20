@@ -21,11 +21,9 @@
 ## 핵심 파일 역할
 - main.dart: 앱의 최상위 진입점
   - 로그인 상태 관리: FutureBuilder와 SharedPreferences를 활용하여 앱 실행 시 사용자 로그인 여부를 판단
-  - 보안 설정: HttpOverrides를 재정의하여 외부 서버의 이미지 리소스 호출 시 발생할 수 있는 SSL 인증서 오류를 방지하고 안정적인 데이터 로딩을 지원함
   - 내비게이션 관리: BottomNavigationBar를 중심으로 앱의 전체 페이지를 관리하며, StatefulWidget의 setState를 통해 탭 전환 및 실시간 상태 업데이트를 제어함
   - 데이터 흐름 설계: '상태 끌어올리기(Lifting State Up)' 패턴을 적용하여, favoriteList와 같은 전역 상태를 부모 위젯에서 관리하고 콜백 함수를 통해 자식 위젯들에 효율적으로 전달함
 
 - login_page.dart: 앱의 인증 인터페이스를 담당
   - 세션 관리: 사용자가 입력한 이메일 정보를 SharedPreferences에 영구 저장하여, 앱 재실행 시 로그인 상태를 유지하는 데이터 지속성(Persistence)을 구현함
   - UX 인터랙션: TextEditingController와 obscureText 상태 관리를 통해 비밀번호 표시/숨김 기능을 구현하였으며, SingleChildScrollView를 사용하여 다양한 화면 크기에서도 입력 폼이 가려지지 않는 반응형 UI를 설계함
-  - UI 확장성: SNS 간편 로그인 버튼 위젯(_buildSnsButton)을 모듈화하여, 향후 다양한 소셜 로그인 기능 추가가 용이하도록 객체 지향적인 위젯 구조를 갖춤
