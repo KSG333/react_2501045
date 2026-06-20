@@ -6,13 +6,11 @@
 
 본 프로젝트는 **바이브코딩(Vibe Coding)** 기법을 활용하여 AI(제미나이)와 협업하여 개발되었습니다.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 주요 기능
+- **닉네임 수정**: 실시간 상태 관리(Lifting State Up)를 통한 사용자 식별
+- **리뷰 및 별점 작성**: `RatingBar`를 활용한 직관적인 별점 평가 및 리뷰 데이터 생성
+- **카테고리 필터링**: 카테고리별 데이터 필터링 기능을 통해 사용자 맞춤형 정보 탐색 지원
+- **데이터 구조화**: 모델 클래스를 활용한 체계적인 정보 관리
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
