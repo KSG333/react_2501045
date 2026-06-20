@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flutter_2501045
 
 A new Flutter project.
@@ -15,3 +16,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# react_2501045
+>>>>>>> 25f687b13ade71161783230160caed580c6a3640
