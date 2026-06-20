@@ -16,3 +16,4 @@
 
 ## AI 대화 기록
 - https://gemini.google.com/share/96e109941f17
+> ⚠️ 주의사항
