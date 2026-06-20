@@ -24,3 +24,5 @@
   - 보안 설정: HttpOverrides를 재정의하여 외부 서버의 이미지 리소스 호출 시 발생할 수 있는 SSL 인증서 오류를 방지하고 안정적인 데이터 로딩을 지원
   - 내비게이션 관리: BottomNavigationBar를 중심으로 앱의 전체 페이지를 관리하며, StatefulWidget의 setState를 통해 탭 전환 및 실시간 상태 업데이트를 제어
   - 데이터 흐름 설계: '상태 끌어올리기(Lifting State Up)' 패턴을 적용하여, favoriteList와 같은 전역 상태를 부모 위젯에서 관리하고 콜백 함수를 통해 자식 위젯들에 효율적으로 전달
+
+- login_page.dart: 앱의 인증 인터페이스를 담당합니다.
